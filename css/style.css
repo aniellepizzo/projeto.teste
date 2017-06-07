@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, header, section, footer,
+a, abbr, acronym, address, big, cite, code, nav,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, input, button, textarea{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #eeeeee;
+}
+
+section.main,
+.row{
+    width: 100%;
+    float: left;    
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.col-100{
+     width: 100%;
+    float: left;   
+}
+
+.col-50{
+     width: 50%;
+    float: left;   
+}
+
+
+
+/********************************************
+    HEADER
+********************************************/
+header{
+    background: #333333;
+}
+
+header .nav-pink{
+    background: #d10063;
+    box-shadow: 1px 1px 1px #000;
+    padding: 0.9vw 2vw;    
+}
+
+header .nav-pink .col{
+    float: left;
+}
+
+header .nav-pink .col.brand,
+header .nav-pink .col.tools{
+    width: 30%;
+}
+
+header .nav-pink .col.search{
+    width: 40%;
+}
+
+/** COL SEARCH **/
+header .nav-pink .col.brand button,
+header .nav-pink .col.brand .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .nav-pink .col.brand button{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 8% 0 0;
+}
+
+header .nav-pink .col.brand .logo{
+    width: 13%;
+    max-width: 73px;
+}
+
+/** COL SEARCH **/
+header .nav-pink .col.search form{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .nav-pink .col.search form input{
+    width: 100%;
+    border-radius: 10px;
+    background: #bb0058;
+    border: 0;
+    color: #eab3cd;
+    outline: none;
+    padding: 1vw 3.5vw 1vw 2vw;
+    font-size: 18px;
+}
+
+header .nav-pink .col.search form input:focus{
+    color: #fff;
+}
+
+header .nav-pink .col.search form button{
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 0.9vw;
+    right: 1.5vw;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 27px;
+    outline: none;    
+}
+
+
+/** COL TOOLS **/
+header .nav-pink .col.tools .user,
+header .nav-pink .col.tools .user img,
+header .nav-pink .col.tools .user p,
+header .nav-pink .col.tools i{
+    display: inline;
+    vertical-align: middle;
+}
+
+header .nav-pink .col.tools{
+    text-align: right;
+}
+
+header .nav-pink .col.tools i,
+header .nav-pink .col.tools p{
+    color: #fff;
+}
+
+header .nav-pink .col.tools p{
+    font-size: 24px;
+    margin: 0 3%;
+}
+
+header .nav-pink .col.tools i{
+    font-size: 33px;
+}
+
+header .nav-pink .col.tools i.mdl-badge.mdl-badge--overlap:after {
+    right: -10px;
+    top: auto;
+    bottom: -7px;
+    border: 3px solid #d10063;
+    background: #680031;
+}
+
+header .nav-pink .col.tools .user img{
+    width: 13%;
+    max-width: 73px;
+    border-radius: 100%;
+}
+
+
+/** CONTAINER SETTINGS **/
+.settings{
+    color: #fff;
+}
+
+.settings h3,
+.settings button,
+.settings h4{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.settings h3{
+    font-size: 2vw;
+}
+
+.settings h4{
+    font-size: 1.5vw;
+}
+
+.settings h4 span{
+    font-weight: 800;
+    color: #43a047;
+    font-size: 1.8vw;
+    margin: 0 15px;
+}
+
+.settings .material-icons{
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    color: #fff;
+}
+
+.settings .icon-help{
+    color: #666666;
+}
+
+
+.settings .material-icons:hover{
+    color: #d10063;
+}
+
+
+
+.settings .col-50:nth-child(2){
+    text-align: right;
+}
+
+/** CONTAINER VIDEOS **/
+.videos h5{
+    font-size: 1.4vw;
+    color: #fff;
+}
+
+.videos .lista-videos{
+    margin: 0 -7px;
+}
+
+.videos .lista-videos .thumb-video{
+    width: 20%;
+    float: left;
+    padding: 0 7px;
+}
+
+.videos button.mais{
+    font-size: 15px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;    
+}
+
+.videos button.mais i{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/********************************************
+    TEMAS
+********************************************/
+.temas .mdl-card{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.temas .mdl-card .mdl-card__media{
+    background: transparent;
+    padding: 16px;
+}
