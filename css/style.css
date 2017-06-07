@@ -266,3 +266,47 @@ header .nav-pink .col.tools .user img{
     background: transparent;
     padding: 16px;
 }
+
+.temas .mdl-card .mdl-card__media ul{
+    width: 100%;
+    float: left;
+}
+
+.temas .mdl-card .mdl-card__media ul li{
+    width: 16.4%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0;
+}
+
+.temas .mdl-card .mdl-card__media ul li a{
+    display: block;
+}
+
+.temas .mdl-card .mdl-card__media ul li a i img{
+    border-radius: 100%;  
+}
+
+.temas .mdl-card .mdl-card__media ul li a i{
+    width: 80%;
+    max-width: 140px;
+    display: block;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;    
+}
+
+.temas .mdl-card .mdl-card__media ul li a p{
+    text-align: center;
+    color: #333333;
+    font-weight: 600;
+    font-size: 0.9vmax;
+    margin: 10px 0 0 0;
+    line-height: 1.3;
+}
+
+.temas .mdl-card .mdl-card__media ul li a p small{
+    display: block;
+    color: #9d9d9d;
+    font-weight: 300;
+}
